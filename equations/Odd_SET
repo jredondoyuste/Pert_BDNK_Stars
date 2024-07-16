@@ -1,0 +1,24 @@
+<|"tg" -> (-(LENG*(-2 + \[Tau])*cs[]^2*\[ScriptCapitalD][\[ScriptE][]]) + 
+    Ry*(-\[ScriptE][] + \[ScriptP][]) - LENG*(-1 + \[Tau])*cs[]^2*mu[]*
+     (\[ScriptE][] + \[ScriptP][]))/Ry, 
+ "tp" -> (LENG*(2 + \[Tau])*cs[]^2*\[ScriptCapitalD][\[ScriptE][]] + 
+    (Ry + LENG*(1 + \[Tau])*cs[]^2*mu[])*(\[ScriptE][] + \[ScriptP][]))/Ry, 
+ "tq" -> (-2*LENG*\[Tau]*cs[]^2*(nu[]*(\[ScriptE][] + \[ScriptP][]) + 
+     cs[]^2*\[GothicCapitalD][\[ScriptE][]]))/Ry, 
+ "ts" -> (2*LENG*cs[]^2*\[ScriptCapitalD][\[ScriptE][]] + Ry*\[ScriptP][] + 
+    LENG*(1 + 2*Ry*\[Eta])*cs[]^2*mu[]*(\[ScriptE][] + \[ScriptP][]))/Ry, 
+ "\[Theta]l" -> -(kl[]*\[ScriptE][]) - 
+   (LENG*\[Tau]*cs[]^2*\[ScriptCapitalD][kl[]]*(\[ScriptE][] + \[ScriptP][]))/
+    Ry - (LENG*\[Tau]*cs[]^2*\[ScriptCapitalD][\[Beta][]]*
+     (\[ScriptE][] + \[ScriptP][]))/Ry + (-\[ScriptE][] - \[ScriptP][])*
+    \[Beta][], "\[Theta]n" -> kn[]*\[ScriptP][] - 
+   LENG*\[Eta]*cs[]^2*\[ScriptCapitalD][kn[]]*(\[ScriptE][] + \[ScriptP][]) + 
+   (LENG*\[Tau]*cs[]^2*kl[]*(nu[]*(\[ScriptE][] + \[ScriptP][]) + 
+      cs[]^2*\[GothicCapitalD][\[ScriptE][]]))/Ry - 
+   LENG*\[Eta]*cs[]^2*(\[ScriptE][] + \[ScriptP][])*
+    \[GothicCapitalD][\[Beta][]] + 
+   (LENG*cs[]^2*((\[Tau]*nu[] - Ry*\[Eta]*(nu[] - 2*W[]))*
+       (\[ScriptE][] + \[ScriptP][]) + \[Tau]*cs[]^2*\[GothicCapitalD][
+        \[ScriptE][]])*\[Beta][])/Ry, 
+ "\[Theta]s" -> -2*LENG*\[Eta]*cs[]^2*(\[ScriptE][] + \[ScriptP][])*
+   \[Beta][]|>

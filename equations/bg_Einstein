@@ -1,0 +1,15 @@
+<|"\[ScriptCapitalG]g" -> -2/r[]^2 - 8*Pi*tG[] - 2*mu[]*U[] + 4*v2[] + 
+   2*nu[]*W[] - 2*\[ScriptCapitalD][U[]] + 2*\[GothicCapitalD][W[]], 
+ "\[ScriptCapitalG]p" -> -8*Pi*tP[] + 2*mu[]*U[] + 2*v2[] + 2*nu[]*W[] - 
+   4*W[]^2 - 2*\[ScriptCapitalD][U[]] - 2*\[GothicCapitalD][W[]], 
+ "\[ScriptCapitalG]q" -> -8*Pi*tQ[] + 2*nu[]*U[] + 2*mu[]*W[] - 4*U[]*W[] - 
+   2*\[ScriptCapitalD][W[]] - 2*\[GothicCapitalD][U[]], 
+ "\[ScriptCapitalG]s" -> -mu[]^2 + nu[]^2 - 8*Pi*tS[] - mu[]*U[] + v2[] + 
+   nu[]*W[] - \[ScriptCapitalD][mu[]] - \[ScriptCapitalD][U[]] + 
+   \[GothicCapitalD][nu[]] + \[GothicCapitalD][W[]], 
+ "\[ScriptCapitalC]l" -> (-2*mu[]*tP[] + 2*nu[]*tQ[] + 2*tG[]*U[] - 
+    2*tP[]*U[] - 4*tS[]*U[] + 2*tQ[]*W[] + \[ScriptCapitalD][tG[]] - 
+    \[ScriptCapitalD][tP[]] + \[GothicCapitalD][tQ[]])/2, 
+ "\[ScriptCapitalC]n" -> (2*nu[]*tP[] - 2*mu[]*tQ[] - 2*tQ[]*U[] + 
+    2*tG[]*W[] + 2*tP[]*W[] - 4*tS[]*W[] - \[ScriptCapitalD][tQ[]] + 
+    \[GothicCapitalD][tG[]] + \[GothicCapitalD][tP[]])/2|>

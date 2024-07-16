@@ -1,0 +1,25 @@
+<|"\[ScriptCapitalO]l" -> (-nu[] + 2*W[])*\[ScriptCapitalD][kn[]] + 
+   \[ScriptCapitalD][\[GothicCapitalD][kn[]]] - 
+   nu[]*\[GothicCapitalD][kl[]] + 2*(mu[] - U[])*\[GothicCapitalD][kn[]] + 
+   kn[]*(4*Pi*tQ[] - 2*U[]*W[] + \[GothicCapitalD][mu[]]) + 
+   kl[]*((-1 + \[ScriptCapitalL]^2)/r[]^2 + 4*Pi*tG[] - 4*Pi*tP[] + 
+     16*Pi*tS[] + 2*mu[]*U[] - v2[] - 2*nu[]*W[] + 2*W[]^2 - 
+     \[GothicCapitalD][nu[]]) - \[GothicCapitalD][\[GothicCapitalD][kl[]]] - 
+   16*Pi*\[Theta]l[], "\[ScriptCapitalO]n" -> 
+  (-nu[] + 2*W[])*\[ScriptCapitalD][kl[]] + mu[]*\[ScriptCapitalD][kn[]] + 
+   kl[]*(-4*Pi*tQ[] + 2*U[]*W[] - \[ScriptCapitalD][nu[]]) + 
+   \[ScriptCapitalD][\[ScriptCapitalD][kn[]]] - 
+   \[ScriptCapitalD][\[GothicCapitalD][kl[]]] - 
+   2*U[]*\[GothicCapitalD][kl[]] + 
+   kn[]*(-mu[]^2 + nu[]^2 + \[ScriptCapitalL]^2/r[]^2 + 
+     4*Pi*(2*tG[] + tP[] + 2*tS[]) + 2*mu[]*U[] - 2*nu[]*W[] - 2*W[]^2 + 
+     \[GothicCapitalD][nu[]]) - 16*Pi*\[Theta]n[], 
+ "\[ScriptCapitalO]s" -> kl[]*mu[] + \[ScriptCapitalD][kl[]] + 
+    8*Pi*\[Theta]S[] == kn[]*nu[] + \[GothicCapitalD][kn[]], 
+ "\[ScriptCapitalC]" -> -(tS[]*\[ScriptCapitalD][kl[]]) + 
+   kl[]*(-(tS[]*(mu[] + 2*U[])) - \[ScriptCapitalD][tS[]]) + 
+   \[ScriptCapitalD][\[Theta]l[]] + tS[]*\[GothicCapitalD][kn[]] + 
+   kn[]*(tS[]*(nu[] + 2*W[]) + \[GothicCapitalD][tS[]]) - 
+   \[GothicCapitalD][\[Theta]n[]] + (mu[] + 2*U[])*\[Theta]l[] + 
+   (-nu[] - 2*W[])*\[Theta]n[] - \[Theta]S[]/r[]^2 + 
+   (\[ScriptCapitalL]^2*\[Theta]S[])/(2*r[]^2)|>
