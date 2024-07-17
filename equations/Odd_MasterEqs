@@ -1,39 +1,31 @@
-<|"Gravity" -> E^\[CapitalPhi][x[]]*(4*Pi*(\[ScriptE] - \[ScriptP]) - 
-     (6*m0[x[]])/x[]^3 + \[ScriptCapitalL]^2/x[]^2)*\[CapitalPsi][t, z] + 
-   (16*E^\[CapitalPhi][x[]]*L*Pi*(\[ScriptE] + \[ScriptP])*\[Eta]*
-     \[CurlyPhi][t, z]*(E^(\[CapitalPhi][x[]]/2)*m0[x[]]*x[] + 
-      4*E^(\[CapitalPhi][x[]]/2)*Pi*\[ScriptP]*x[]^4 - 
-      2*Sqrt[x[]^5*(-2*m0[x[]] + x[])]*Subscript[c, s][z]*
-       Derivative[1][Subscript[c, s]][z]))/Sqrt[x[]^7*(-2*m0[x[]] + x[])] - 
-   Derivative[0, 2][\[CapitalPsi]][t, z] + 16*E^(\[CapitalPhi][x[]]/2)*L*Pi*
-    (\[ScriptE] + \[ScriptP])*\[Eta]*Subscript[c, s][z]^2*
-    Derivative[1, 0][\[CapitalPsi]][t, z] + Derivative[2, 0][\[CapitalPsi]][
-    t, z], "Fluid" -> 
-  -((E^((Log[1 - (2*m0[x[]])/x[]] + \[CapitalPhi][x[]])/2)*
-      \[CapitalPsi][t, z])/(L*Subscript[c, s][z]^2)) + 
-   ((1 - (2*m0[x[]])/x[])*\[CurlyPhi][t, z]*
-     (-(E^\[CapitalPhi][x[]]*\[Eta]*(5*(1 + Subscript[c, s][z]^2) + 
-         ((x[] + 8*Pi*\[ScriptP]*x[]^3)^2*(1 + Subscript[c, s][z]^2))/
-          (-2*m0[x[]] + x[])^2 + (x[]*(6 + 48*Pi*\[ScriptP]*x[]^2 - 
-            2*(-3 + 2*\[ScriptCapitalL]^2 + 8*Pi*\[ScriptE]*x[]^2)*
-             Subscript[c, s][z]^2))/(2*m0[x[]] - x[]))) + 
-      8*E^(\[CapitalPhi][x[]]/2)*\[Eta]*(x[]/(-2*m0[x[]] + x[]))^(3/2)*
-       (5*m0[x[]] - 2*x[] + 4*Pi*\[ScriptP]*x[]^3)*Subscript[c, s][z]*
-       Derivative[1][Subscript[c, s]][z]))/(4*x[]^2*Subscript[c, s][z]^2) + 
-   (\[Eta]*(-((E^(\[CapitalPhi][x[]]/2)*(m0[x[]] + 4*Pi*\[ScriptP]*x[]^3))/
-        Sqrt[x[]^3*(-2*m0[x[]] + x[])]) + 2*Subscript[c, s][z]*
-       Derivative[1][Subscript[c, s]][z])*Derivative[0, 1][\[CurlyPhi]][t, 
-      z])/Subscript[c, s][z]^2 - (x[]*Derivative[0, 1][\[CapitalPsi]][t, z])/
-    (L*Subscript[c, s][z]^2) + \[Eta]*Derivative[0, 2][\[CurlyPhi]][t, z] - 
-   (E^(\[CapitalPhi][x[]]/2)*(Ry + 16*L^2*Pi*(\[ScriptE] + \[ScriptP])*\[Eta]*
-       \[Tau]*Subscript[c, s][z]^4)*Derivative[1, 0][\[CurlyPhi]][t, z])/
-    (L*Ry*Subscript[c, s][z]^2) + 
-   ((-(Sqrt[1 - (2*m0[x[]])/x[]]*(2*\[Tau]*Subscript[c, s][z]^2 + 
-         Ry*\[Eta]*(-1 - 8*Subscript[c, s][z]^2 + 
-           ((1 + 8*Pi*\[ScriptP]*x[]^2)*(1 + 2*Subscript[c, s][z]^2))/
-            (1 - (2*m0[x[]])/x[])))) + (4*Ry*\[Eta]*x[]*Subscript[c, s][z]*
-        Derivative[1][Subscript[c, s]][z])/E^(\[CapitalPhi][x[]]/2))*
-     Derivative[1, 0][\[CapitalPsi]][t, z])/(2*Ry*Subscript[c, s][z]^2) + 
-   ((Ry*\[Eta] - \[Tau])*x[]*Derivative[1, 1][\[CapitalPsi]][t, z])/
-    (E^(\[CapitalPhi][x[]]/2)*Ry) - 
-   (\[Tau]*Derivative[2, 0][\[CurlyPhi]][t, z])/Ry|>
+<|"Gravity" -> E^\[CapitalPhi][R]*\|01d713[t, R]*
+    (\[Lambda]^2/r^2 - (6*M[R])/r^3 + 4*Pi*(e[R] - p[R])) + 
+   (16*E^\[CapitalPhi][R]*L*Pi*\|01d6fd[t, R]*OverHat[\|01d702]*(e[R] + p[R])*
+     (E^(\[CapitalPhi][R]/2)*r*M[R] + 4*E^(\[CapitalPhi][R]/2)*Pi*r^4*p[R]))/
+    Sqrt[r^7*(r - 2*M[R])] - Derivative[0, 2][\|01d713][t, R] + 
+   16*E^(\[CapitalPhi][R]/2)*L*Pi*OverHat[\|01d702]*(e[R] + p[R])*
+    Subscript[c, s][R]^2*Derivative[1, 0][\|01d713][t, R] + 
+   Derivative[2, 0][\|01d713][t, R], 
+ "Fluid" -> -((E^((-\[CapitalLambda][r] + \[CapitalPhi][R])/2)*
+      \|01d713[t, R])/(L*Subscript[c, s][R]^2)) - 
+   (E^(-\[CapitalLambda][r] + \[CapitalPhi][R])*\|01d6fd[t, R]*
+     OverHat[\|01d702]*(5*(1 + Subscript[c, s][R]^2) + 
+      E^(2*\[CapitalLambda][r])*(1 + 8*Pi*r^2*p[R])^2*
+       (1 + Subscript[c, s][R]^2) + 2*E^\[CapitalLambda][r]*
+       (-3*(1 + 8*Pi*r^2*p[R]) + (-3 + 2*\[Lambda]^2 + 8*Pi*r^2*e[R])*
+         Subscript[c, s][R]^2)))/(4*r^2*Subscript[c, s][R]^2) + 
+   (E^((-\[CapitalLambda][r] + \[CapitalPhi][R])/2)*OverHat[\|01d702]*
+     (1 - E^\[CapitalLambda][r]*(1 + 8*Pi*r^2*p[R]))*
+     Derivative[0, 1][\|01d6fd][t, R])/(2*r*Subscript[c, s][R]^2) - 
+   (r*Derivative[0, 1][\|01d713][t, R])/(L*Subscript[c, s][R]^2) + 
+   OverHat[\|01d702]*Derivative[0, 2][\|01d6fd][t, R] - 
+   (E^(\[CapitalPhi][R]/2)*(RE + 16*L^2*Pi*OverHat[\|01d702]*
+       OverHat[\|01d70f]*(e[R] + p[R])*Subscript[c, s][R]^4)*
+     Derivative[1, 0][\|01d6fd][t, R])/(L*RE*Subscript[c, s][R]^2) - 
+   ((2*OverHat[\|01d70f]*Subscript[c, s][R]^2 + RE*OverHat[\|01d702]*
+       (-1 - 8*Subscript[c, s][R]^2 + E^\[CapitalLambda][r]*
+         (1 + 8*Pi*r^2*p[R])*(1 + 2*Subscript[c, s][R]^2)))*
+     Derivative[1, 0][\|01d713][t, R])/(2*E^(\[CapitalLambda][r]/2)*RE*
+     Subscript[c, s][R]^2) + (r*(RE*OverHat[\|01d702] - OverHat[\|01d70f])*
+     Derivative[1, 1][\|01d713][t, R])/(E^(\[CapitalPhi][R]/2)*RE) - 
+   (OverHat[\|01d70f]*Derivative[2, 0][\|01d6fd][t, R])/RE|>
