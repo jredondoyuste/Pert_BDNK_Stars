@@ -1,100 +1,107 @@
-<|"tg" -> (-(LENG*(-2 + \[Tau])*cs[]^2*\[ScriptCapitalD][\[ScriptE][]]) + 
-    Ry*(-\[ScriptE][] + \[ScriptP][]) - LENG*(-1 + \[Tau])*cs[]^2*mu[]*
-     (\[ScriptE][] + \[ScriptP][]))/Ry, 
- "tp" -> (LENG*(2 + \[Tau])*cs[]^2*\[ScriptCapitalD][\[ScriptE][]] + 
-    (Ry + LENG*(1 + \[Tau])*cs[]^2*mu[])*(\[ScriptE][] + \[ScriptP][]))/Ry, 
- "tq" -> (-2*LENG*\[Tau]*cs[]^2*(nu[]*(\[ScriptE][] + \[ScriptP][]) + 
-     cs[]^2*\[GothicCapitalD][\[ScriptE][]]))/Ry, 
- "ts" -> (2*LENG*cs[]^2*\[ScriptCapitalD][\[ScriptE][]] + Ry*\[ScriptP][] + 
-    LENG*(1 + 2*Ry*\[Eta])*cs[]^2*mu[]*(\[ScriptE][] + \[ScriptP][]))/Ry, 
- "\[ScriptCapitalT]p" -> 
-  (LENG*(2 + \[Tau])*cs[]^2*\[ScriptCapitalD][\[Omega][]]*\[ScriptE][])/Ry + 
-   (hp[]*(-\[ScriptE][] + \[ScriptP][]))/2 + 
-   (hg[]*(\[ScriptE][] + \[ScriptP][]))/2 + 
-   (LENG*(1 + \[Tau])*cs[]^2*\[ScriptCapitalD][hg[]]*
-     (\[ScriptE][] + \[ScriptP][]))/(4*Ry) + 
-   (LENG*(1 + \[Tau])*cs[]^2*\[ScriptCapitalD][hp[]]*
-     (\[ScriptE][] + \[ScriptP][]))/(4*Ry) + 
-   (LENG*(1 + 2*Ry*\[Eta] + \[Tau])*cs[]^2*\[ScriptCapitalD][hS[]]*
-     (\[ScriptE][] + \[ScriptP][]))/Ry - 
-   (LENG*(1 + \[Tau])*cs[]^2*(\[ScriptE][] + \[ScriptP][])*
-     \[GothicCapitalD][hq[]])/(4*Ry) - 
-   (LENG*cs[]^2*hq[]*(((1 + \[Tau])*nu[] + 2*(1 + 2*Ry*\[Eta] + \[Tau])*W[])*
-       (\[ScriptE][] + \[ScriptP][]) + (2 + \[Tau])*\[GothicCapitalD][
-        \[ScriptE][]]))/(4*Ry) + (LENG*(1 + \[Tau])*cs[]^2*
-     (\[ScriptE][] + \[ScriptP][])*\[GothicCapitalD][\[Gamma][]])/Ry - 
-   (LENG*\[ScriptCapitalL]^2*(1 + 2*Ry*\[Eta] + \[Tau])*cs[]^2*
-     (\[ScriptE][] + \[ScriptP][])*\[Alpha][])/(Ry*r[]^2) + 
-   (LENG*cs[]^2*((nu[] + 5*\[Tau]*nu[] + 2*(1 + 2*Ry*\[Eta] + \[Tau])*W[])*
-       (\[ScriptE][] + \[ScriptP][]) + (2 + \[Tau] + 4*\[Tau]*cs[]^2)*
-       \[GothicCapitalD][\[ScriptE][]])*\[Gamma][])/Ry + 
+<|"tg" -> \[ScriptP][] - mu[]*\[Zeta][] - (4*mu[]*\[Eta][])/3 - 
+   mu[]*\[ScriptP][]*\[Tau]E[] + mu[]*\[ScriptP][]*\[Tau]P[] + 
+   \[ScriptCapitalD][\[ScriptE][]]*(-\[Tau]E[] + \[Tau]P[]) + 
+   \[ScriptE][]*(-1 - mu[]*\[Tau]E[] + mu[]*\[Tau]P[]), 
+ "tp" -> \[ScriptE][] + \[ScriptP][] - mu[]*\[Zeta][] - (4*mu[]*\[Eta][])/3 + 
+   mu[]*\[ScriptE][]*\[Tau]E[] + mu[]*\[ScriptP][]*\[Tau]E[] + 
+   mu[]*\[ScriptE][]*\[Tau]P[] + mu[]*\[ScriptP][]*\[Tau]P[] + 
+   \[ScriptCapitalD][\[ScriptE][]]*(\[Tau]E[] + \[Tau]P[]), 
+ "tq" -> -2*(nu[]*(\[ScriptE][] + \[ScriptP][]) + 
+    cs[]^2*\[GothicCapitalD][\[ScriptE][]])*\[Tau]Q[], 
+ "ts" -> \[ScriptP][] - mu[]*\[Zeta][] + (2*mu[]*\[Eta][])/3 + 
+   \[ScriptCapitalD][\[ScriptE][]]*\[Tau]P[] + mu[]*\[ScriptE][]*\[Tau]P[] + 
+   mu[]*\[ScriptP][]*\[Tau]P[], "\[ScriptCapitalT]p" -> 
+  (hp[]*(-\[ScriptE][] + \[ScriptP][]))/2 + 
+   (hg[]*(\[ScriptE][] + \[ScriptP][]))/2 + \[ScriptCapitalD][\[Omega][]]*
+    \[ScriptE][]*(\[Tau]E[] + \[Tau]P[]) + 
+   (\[ScriptCapitalL]^2*\[Alpha][]*(3*\[Zeta][] - 2*\[Eta][] - 
+      3*(\[ScriptE][] + \[ScriptP][])*(\[Tau]E[] + \[Tau]P[])))/(3*r[]^2) + 
+   (\[GothicCapitalD][hq[]]*(3*\[Zeta][] + 4*\[Eta][] - 
+      3*(\[ScriptE][] + \[ScriptP][])*(\[Tau]E[] + \[Tau]P[])))/12 + 
+   \[GothicCapitalD][\[Gamma][]]*(-\[Zeta][] - (4*\[Eta][])/3 + 
+     (\[ScriptE][] + \[ScriptP][])*(\[Tau]E[] + \[Tau]P[])) + 
+   \[ScriptCapitalD][hS[]]*(-\[Zeta][] + (2*\[Eta][])/3 + 
+     (\[ScriptE][] + \[ScriptP][])*(\[Tau]E[] + \[Tau]P[])) + 
+   (\[ScriptCapitalD][hg[]]*(-3*\[Zeta][] - 4*\[Eta][] + 
+      3*(\[ScriptE][] + \[ScriptP][])*(\[Tau]E[] + \[Tau]P[])))/12 + 
+   (\[ScriptCapitalD][hp[]]*(-3*\[Zeta][] - 4*\[Eta][] + 
+      3*(\[ScriptE][] + \[ScriptP][])*(\[Tau]E[] + \[Tau]P[])))/12 + 
+   (hq[]*(3*nu[]*\[Zeta][] + 6*W[]*\[Zeta][] + 4*nu[]*\[Eta][] - 
+      4*W[]*\[Eta][] - 3*nu[]*(\[ScriptE][] + \[ScriptP][])*
+       (\[Tau]E[] + \[Tau]P[]) - 6*W[]*(\[ScriptE][] + \[ScriptP][])*
+       (\[Tau]E[] + \[Tau]P[]) - 3*\[GothicCapitalD][\[ScriptE][]]*
+       (\[Tau]E[] + \[Tau]P[])))/12 + 
+   \[Gamma][]*(-(nu[]*\[Zeta][]) - 2*W[]*\[Zeta][] - (4*nu[]*\[Eta][])/3 + 
+     (4*W[]*\[Eta][])/3 + 2*W[]*(\[ScriptE][] + \[ScriptP][])*
+      (\[Tau]E[] + \[Tau]P[]) + nu[]*(\[ScriptE][] + \[ScriptP][])*
+      (\[Tau]E[] + \[Tau]P[] + 4*\[Tau]Q[]) + \[GothicCapitalD][\[ScriptE][]]*
+      (\[Tau]E[] + \[Tau]P[] + 4*cs[]^2*\[Tau]Q[])) + 
    (1 + cs[]^2)*\[ScriptE][]*\[Omega][], "\[ScriptCapitalT]g" -> 
-  -((LENG*(-2 + \[Tau])*cs[]^2*\[ScriptCapitalD][\[Omega][]]*\[ScriptE][])/
-     Ry) + (hg[]*(-\[ScriptE][] + \[ScriptP][]))/2 + 
-   (hp[]*(\[ScriptE][] + \[ScriptP][]))/2 - 
-   (LENG*(-1 + \[Tau])*cs[]^2*\[ScriptCapitalD][hg[]]*
-     (\[ScriptE][] + \[ScriptP][]))/(4*Ry) - 
-   (LENG*(-1 + \[Tau])*cs[]^2*\[ScriptCapitalD][hp[]]*
-     (\[ScriptE][] + \[ScriptP][]))/(4*Ry) + 
-   (LENG*(1 + 2*Ry*\[Eta] - \[Tau])*cs[]^2*\[ScriptCapitalD][hS[]]*
-     (\[ScriptE][] + \[ScriptP][]))/Ry + 
-   (LENG*(-1 + \[Tau])*cs[]^2*(\[ScriptE][] + \[ScriptP][])*
-     \[GothicCapitalD][hq[]])/(4*Ry) + 
-   (LENG*cs[]^2*hq[]*(((-1 + 5*\[Tau])*nu[] + 2*(-1 - 2*Ry*\[Eta] + \[Tau])*
-         W[])*(\[ScriptE][] + \[ScriptP][]) + (-2 + \[Tau] + 4*\[Tau]*cs[]^2)*
-       \[GothicCapitalD][\[ScriptE][]]))/(4*Ry) - 
-   (LENG*(-1 + \[Tau])*cs[]^2*(\[ScriptE][] + \[ScriptP][])*
-     \[GothicCapitalD][\[Gamma][]])/Ry - 
-   (LENG*\[ScriptCapitalL]^2*(1 + 2*Ry*\[Eta] - \[Tau])*cs[]^2*
-     (\[ScriptE][] + \[ScriptP][])*\[Alpha][])/(Ry*r[]^2) + 
-   (LENG*cs[]^2*(-(((-1 + \[Tau])*nu[] + 2*(-1 - 2*Ry*\[Eta] + \[Tau])*W[])*
-        (\[ScriptE][] + \[ScriptP][])) - (-2 + \[Tau])*
-       \[GothicCapitalD][\[ScriptE][]])*\[Gamma][])/Ry + 
-   (-1 + cs[]^2)*\[ScriptE][]*\[Omega][], "\[ScriptCapitalT]q" -> 
-  (hq[]*(-\[ScriptE][] + \[ScriptP][]))/2 - 
-   (LENG*\[Tau]*cs[]^2*\[ScriptCapitalD][hq[]]*(\[ScriptE][] + \[ScriptP][]))/
-    (2*Ry) - (2*LENG*\[Tau]*cs[]^2*\[ScriptCapitalD][\[Gamma][]]*
-     (\[ScriptE][] + \[ScriptP][]))/Ry - 
-   (LENG*\[Tau]*cs[]^2*(\[ScriptE][] + \[ScriptP][])*\[GothicCapitalD][hg[]])/
-    (2*Ry) + (LENG*\[Tau]*cs[]^2*(\[ScriptE][] + \[ScriptP][])*
-     \[GothicCapitalD][hp[]])/(2*Ry) - 
-   (LENG*\[Tau]*cs[]^2*hg[]*(nu[]*(\[ScriptE][] + \[ScriptP][]) + 
-      cs[]^2*\[GothicCapitalD][\[ScriptE][]]))/(2*Ry) + 
-   (LENG*\[Tau]*cs[]^2*hp[]*(nu[]*(\[ScriptE][] + \[ScriptP][]) + 
-      cs[]^2*\[GothicCapitalD][\[ScriptE][]]))/(2*Ry) - 
-   (2*LENG*\[Tau]*cs[]^4*\[ScriptE][]*\[GothicCapitalD][\[Omega][]])/Ry - 
-   2*(\[ScriptE][] + \[ScriptP][])*\[Gamma][] - 
-   (2*LENG*\[Tau]*cs[]^2*((1 + cs[]^2)*nu[]*\[ScriptE][] + 
-      cs[]^2*\[GothicCapitalD][\[ScriptE][]])*\[Omega][])/Ry, 
- "\[ScriptCapitalT]l" -> 
-  -1/4*(LENG*\[Tau]*cs[]^2*hg[]*(\[ScriptE][] + \[ScriptP][]))/Ry + 
-   (LENG*\[Tau]*cs[]^2*hp[]*(\[ScriptE][] + \[ScriptP][]))/(4*Ry) - 
-   (LENG*\[Tau]*cs[]^2*\[ScriptCapitalD][\[Alpha][]]*
-     (\[ScriptE][] + \[ScriptP][]))/Ry + (-\[ScriptE][] - \[ScriptP][])*
-    \[Alpha][] - (LENG*\[Tau]*cs[]^4*\[ScriptE][]*\[Omega][])/Ry, 
- "\[ScriptCapitalT]n" -> 
-  (LENG*\[Eta]*cs[]^2*hq[]*(\[ScriptE][] + \[ScriptP][]))/4 - 
-   LENG*\[Eta]*cs[]^2*(\[ScriptE][] + \[ScriptP][])*
-    \[GothicCapitalD][\[Alpha][]] + 
-   (LENG*cs[]^2*((\[Tau]*nu[] - Ry*\[Eta]*(nu[] - 2*W[]))*
-       (\[ScriptE][] + \[ScriptP][]) + \[Tau]*cs[]^2*\[GothicCapitalD][
-        \[ScriptE][]])*\[Alpha][])/Ry - LENG*\[Eta]*cs[]^2*
-    (\[ScriptE][] + \[ScriptP][])*\[Gamma][], 
- "\[ScriptCapitalT]s" -> (2*LENG*cs[]^2*\[ScriptCapitalD][\[Omega][]]*
-     \[ScriptE][])/Ry + hS[]*\[ScriptP][] + 
-   (LENG*(1 + 2*Ry*\[Eta])*cs[]^2*\[ScriptCapitalD][hg[]]*
-     (\[ScriptE][] + \[ScriptP][]))/(4*Ry) + 
-   (LENG*(1 + 2*Ry*\[Eta])*cs[]^2*\[ScriptCapitalD][hp[]]*
-     (\[ScriptE][] + \[ScriptP][]))/(4*Ry) + 
-   (LENG*(1 + Ry*\[Eta])*cs[]^2*\[ScriptCapitalD][hS[]]*
-     (\[ScriptE][] + \[ScriptP][]))/Ry - 
-   (LENG*(1 + 2*Ry*\[Eta])*cs[]^2*(\[ScriptE][] + \[ScriptP][])*
-     \[GothicCapitalD][hq[]])/(4*Ry) - 
-   (LENG*cs[]^2*hq[]*((nu[] + 2*Ry*\[Eta]*nu[] + 2*(W[] + Ry*\[Eta]*W[]))*
-       (\[ScriptE][] + \[ScriptP][]) + 2*\[GothicCapitalD][\[ScriptE][]]))/
-    (4*Ry) + (LENG*(1 + 2*Ry*\[Eta])*cs[]^2*(\[ScriptE][] + \[ScriptP][])*
-     \[GothicCapitalD][\[Gamma][]])/Ry + 
-   (LENG*cs[]^2*((nu[] + 2*Ry*\[Eta]*nu[] + 2*(W[] + Ry*\[Eta]*W[]))*
-       (\[ScriptE][] + \[ScriptP][]) + 2*\[GothicCapitalD][\[ScriptE][]])*
-     \[Gamma][])/Ry + cs[]^2*\[ScriptE][]*\[Omega][], 
- "\[ScriptCapitalT]2s" -> 0, "\[ScriptCapitalT]s2" -> 0|>
+  (hg[]*(-\[ScriptE][] + \[ScriptP][]))/2 + 
+   (hp[]*(\[ScriptE][] + \[ScriptP][]))/2 + 
+   (\[ScriptCapitalD][hg[]]*(-3*\[Zeta][] - 4*\[Eta][] - 
+      3*(\[ScriptE][] + \[ScriptP][])*(\[Tau]E[] - \[Tau]P[])))/12 + 
+   (\[ScriptCapitalD][hp[]]*(-3*\[Zeta][] - 4*\[Eta][] - 
+      3*(\[ScriptE][] + \[ScriptP][])*(\[Tau]E[] - \[Tau]P[])))/12 + 
+   \[GothicCapitalD][\[Gamma][]]*(-\[Zeta][] - (4*\[Eta][])/3 - 
+     (\[ScriptE][] + \[ScriptP][])*(\[Tau]E[] - \[Tau]P[])) + 
+   \[ScriptCapitalD][hS[]]*(-\[Zeta][] + (2*\[Eta][])/3 - 
+     (\[ScriptE][] + \[ScriptP][])*(\[Tau]E[] - \[Tau]P[])) + 
+   (\[ScriptCapitalL]^2*\[Alpha][]*(3*\[Zeta][] - 2*\[Eta][] + 
+      3*(\[ScriptE][] + \[ScriptP][])*(\[Tau]E[] - \[Tau]P[])))/(3*r[]^2) + 
+   (\[GothicCapitalD][hq[]]*(3*\[Zeta][] + 4*\[Eta][] + 
+      3*(\[ScriptE][] + \[ScriptP][])*(\[Tau]E[] - \[Tau]P[])))/12 + 
+   \[ScriptCapitalD][\[Omega][]]*\[ScriptE][]*(-\[Tau]E[] + \[Tau]P[]) + 
+   \[Gamma][]*((-2*W[]*(3*\[Zeta][] - 2*\[Eta][] + 
+        3*(\[ScriptE][] + \[ScriptP][])*(\[Tau]E[] - \[Tau]P[])))/3 - 
+     (nu[]*(3*\[Zeta][] + 4*\[Eta][] + 3*(\[ScriptE][] + \[ScriptP][])*
+         (\[Tau]E[] - \[Tau]P[])))/3 + \[GothicCapitalD][\[ScriptE][]]*
+      (-\[Tau]E[] + \[Tau]P[])) + 
+   (hq[]*(3*nu[]*\[Zeta][] + 6*W[]*\[Zeta][] + 4*nu[]*\[Eta][] - 
+      4*W[]*\[Eta][] + 6*W[]*(\[ScriptE][] + \[ScriptP][])*
+       (\[Tau]E[] - \[Tau]P[]) + 3*nu[]*(\[ScriptE][] + \[ScriptP][])*
+       (\[Tau]E[] - \[Tau]P[] + 4*\[Tau]Q[]) + 
+      3*\[GothicCapitalD][\[ScriptE][]]*(\[Tau]E[] - \[Tau]P[] + 
+        4*cs[]^2*\[Tau]Q[])))/12 + (-1 + cs[]^2)*\[ScriptE][]*\[Omega][], 
+ "\[ScriptCapitalT]q" -> (hq[]*(-\[ScriptE][] + \[ScriptP][]))/2 - 
+   2*(\[ScriptE][] + \[ScriptP][])*\[Gamma][] + 
+   (\[ScriptCapitalD][hq[]]*(-\[ScriptE][] - \[ScriptP][])*\[Tau]Q[])/2 - 
+   2*\[ScriptCapitalD][\[Gamma][]]*(\[ScriptE][] + \[ScriptP][])*\[Tau]Q[] + 
+   ((-\[ScriptE][] - \[ScriptP][])*\[GothicCapitalD][hg[]]*\[Tau]Q[])/2 + 
+   ((\[ScriptE][] + \[ScriptP][])*\[GothicCapitalD][hp[]]*\[Tau]Q[])/2 + 
+   (hg[]*(-(nu[]*(\[ScriptE][] + \[ScriptP][])) - 
+      cs[]^2*\[GothicCapitalD][\[ScriptE][]])*\[Tau]Q[])/2 + 
+   (hp[]*(nu[]*(\[ScriptE][] + \[ScriptP][]) + 
+      cs[]^2*\[GothicCapitalD][\[ScriptE][]])*\[Tau]Q[])/2 - 
+   2*cs[]^2*\[ScriptE][]*\[GothicCapitalD][\[Omega][]]*\[Tau]Q[] - 
+   2*((1 + cs[]^2)*nu[]*\[ScriptE][] + cs[]^2*\[GothicCapitalD][
+       \[ScriptE][]])*\[Tau]Q[]*\[Omega][], "\[ScriptCapitalT]l" -> 
+  (-\[ScriptE][] - \[ScriptP][])*\[Alpha][] + 
+   (hg[]*(-\[ScriptE][] - \[ScriptP][])*\[Tau]Q[])/4 + 
+   \[ScriptCapitalD][\[Alpha][]]*(-\[ScriptE][] - \[ScriptP][])*\[Tau]Q[] + 
+   (hp[]*(\[ScriptE][] + \[ScriptP][])*\[Tau]Q[])/4 - 
+   cs[]^2*\[ScriptE][]*\[Tau]Q[]*\[Omega][], "\[ScriptCapitalT]n" -> 
+  (hq[]*\[Eta][])/4 - \[GothicCapitalD][\[Alpha][]]*\[Eta][] - 
+   \[Gamma][]*\[Eta][] + \[Alpha][]*(2*W[]*\[Eta][] + 
+     cs[]^2*\[GothicCapitalD][\[ScriptE][]]*\[Tau]Q[] + 
+     nu[]*(-\[Eta][] + \[ScriptE][]*\[Tau]Q[] + \[ScriptP][]*\[Tau]Q[])), 
+ "\[ScriptCapitalT]s" -> hS[]*\[ScriptP][] + \[ScriptCapitalD][\[Omega][]]*
+    \[ScriptE][]*\[Tau]P[] + (\[GothicCapitalD][hq[]]*
+     (3*\[Zeta][] - 2*\[Eta][] - 3*(\[ScriptE][] + \[ScriptP][])*\[Tau]P[]))/
+    12 + \[ScriptCapitalD][hS[]]*(-\[Zeta][] - \[Eta][]/3 + 
+     (\[ScriptE][] + \[ScriptP][])*\[Tau]P[]) + \[GothicCapitalD][\[Gamma][]]*
+    (-\[Zeta][] + (2*\[Eta][])/3 + (\[ScriptE][] + \[ScriptP][])*\[Tau]P[]) + 
+   (\[ScriptCapitalD][hg[]]*(-3*\[Zeta][] + 2*\[Eta][] + 
+      3*(\[ScriptE][] + \[ScriptP][])*\[Tau]P[]))/12 + 
+   (\[ScriptCapitalD][hp[]]*(-3*\[Zeta][] + 2*\[Eta][] + 
+      3*(\[ScriptE][] + \[ScriptP][])*\[Tau]P[]))/12 + 
+   (hq[]*(-3*\[GothicCapitalD][\[ScriptE][]]*\[Tau]P[] + 
+      nu[]*(3*\[Zeta][] - 2*\[Eta][] - 3*(\[ScriptE][] + \[ScriptP][])*
+         \[Tau]P[]) + 2*W[]*(3*\[Zeta][] + \[Eta][] - 
+        3*(\[ScriptE][] + \[ScriptP][])*\[Tau]P[])))/12 + 
+   \[Gamma][]*(\[GothicCapitalD][\[ScriptE][]]*\[Tau]P[] - 
+     (2*W[]*(3*\[Zeta][] + \[Eta][] - 3*(\[ScriptE][] + \[ScriptP][])*
+         \[Tau]P[]))/3 + nu[]*(-\[Zeta][] + (2*\[Eta][])/3 + 
+       (\[ScriptE][] + \[ScriptP][])*\[Tau]P[])) + 
+   cs[]^2*\[ScriptE][]*\[Omega][], "\[ScriptCapitalT]2s" -> 0, 
+ "\[ScriptCapitalT]s2" -> 0|>

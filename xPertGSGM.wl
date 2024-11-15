@@ -106,10 +106,17 @@ DefTensor[H[],M2, PrintAs->ColorString["H", Blue]];
 (*And the viscosities, so that they appear in color*)
 
 
-DefConstantSymbol[\[Eta], PrintAs->ColorString["\!\(\*OverscriptBox[\(\[Eta]\), \(^\)]\)",Orange]];
+(*DefConstantSymbol[\[Eta], PrintAs->ColorString["\!\(\*OverscriptBox[\(\[Eta]\), \(^\)]\)",Orange]];
 DefConstantSymbol[\[Tau], PrintAs->ColorString["\!\(\*OverscriptBox[\(\[Tau]\), \(^\)]\)",Orange]];
 DefConstantSymbol[Ry, PrintAs->ColorString["Re",Orange]];
-DefConstantSymbol[LENG, PrintAs->ColorString["L",Orange]];
+DefConstantSymbol[LENG, PrintAs->ColorString["L",Orange]];*)
+
+
+DefTensor[\[Tau]E[],M2,PrintAs->ColorString["\!\(\*SubscriptBox[\(\[Tau]\), \(e\)]\)",Orange]];
+DefTensor[\[Tau]P[],M2,PrintAs->ColorString["\!\(\*SubscriptBox[\(\[Tau]\), \(P\)]\)",Orange]];
+DefTensor[\[Tau]Q[],M2,PrintAs->ColorString["\!\(\*SubscriptBox[\(\[Tau]\), \(Q\)]\)",Orange]];
+DefTensor[\[Zeta][],M2,PrintAs->ColorString["\[Zeta]",Orange]];
+DefTensor[\[Eta][],M2,PrintAs->ColorString["\[Eta]",Orange]];
 
 
 Begin["`Private`"];
