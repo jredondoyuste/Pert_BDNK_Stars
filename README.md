@@ -12,13 +12,13 @@ Moreover they contain the step-by-step derivation of the master equations presen
 If you find this useful and use this in your research, please cite the accompanying paper.
 
 ```
-@article{Redondo-Yuste:2024,
+@article{Redondo-Yuste:2024vdb,
     author = "Redondo-Yuste, Jaime",
     title = "{Perturbations of relativistic dissipative stars}",
-    eprint = "2411.XXXXX",
+    eprint = "2411.16841",
     archivePrefix = "arXiv",
     primaryClass = "gr-qc",
     month = "11",
-    year = "2024",
+    year = "2024"
 }
 ```
